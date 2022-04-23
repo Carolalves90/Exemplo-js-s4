@@ -28,7 +28,9 @@ const livros = [
     }
 ]
 
-const livrosQueLi = function(livros) { 
+const livrosQueLi = function(livro) { 
     if (livro.jaleu === true)
-    console.log(livros.nome)
+    console.log(livro.nome)
 }
+
+livros.filter(livrosQueLi)

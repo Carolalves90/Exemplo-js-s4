@@ -36,13 +36,13 @@ const livros = [
 //funcao anonima
 //arrow function
 
-const filtraLivroQueLi = function(livro){
+const filtraLivroQueLi = function(livro) {
     if(livro.jaLeu === true){
         console.log(livros.nome)
     }
 }
 
-//como chamar?? console.log(filtraLivroQueLi(livros))
+livros.filter(filtraLivroQueLi) //como chamar?? console.log(filtraLivroQueLi(livros))
 
 //arrow function // funcao de seta
 
