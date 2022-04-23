@@ -1,4 +1,4 @@
-const comprarLivros = [
+const livros = [
     {
         nome: 'Bloom into you (Yagate Kimi ni Naru)',
         autor: 'Nio Nakatani',
@@ -25,7 +25,10 @@ const comprarLivros = [
         anoPublicacao: '2020',
         numeroEdicao: '1 edição',
         jaLeu: true
-    }]
+    }
+]
 
-    const livrosQueLi = function(comprarLivros) { comprarLivros.filter((livro) => livro.jaleu === true)}
-    console.log(livrosQueLi)
+const livrosQueLi = function(livros) { 
+    if (livro.jaleu === true)
+    console.log(livros.nome)
+}
